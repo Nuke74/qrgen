@@ -1,0 +1,22 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A web for the user to generate qr codes based on their input",
+  "main": "src/scripts/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "generator",
+    "web",
+    "application"
+  ],
+  "author": "Nuke",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.4.4"
+  }
+}
